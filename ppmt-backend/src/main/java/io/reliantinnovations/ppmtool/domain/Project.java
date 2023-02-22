@@ -25,6 +25,8 @@ public class Project {
     @Size(min=4, max = 5, message = "Please use 4 to 5 characters")
     @Column(updatable = false, unique = true)
     private String projectIdentifier;
+
+    @NotBlank(message = "Project Description is required")
     private String description;
 
     @JsonFormat(pattern = "yyyy-mm-dd")

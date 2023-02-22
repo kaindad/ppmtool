@@ -1,7 +1,5 @@
-import React, { Component } from 'react'
 
-export default class ProjectItem extends Component {
-  render() {
+export default function ProjectItem () {
     return (
       <div className="container">
           <div className="card card-body bg-light mb-3">
@@ -36,5 +34,4 @@ export default class ProjectItem extends Component {
           </div>
       </div>
     )
-  }
 }

@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Dashboard from '../Dashboard'
 
-export default class Header extends Component {
-  render() {
+export default function  Header (){
     return (
       // <!-- NavBar Component Code -->
     <nav className="navbar navbar-expand-sm navbar-dark bg-primary mb-4">
@@ -40,5 +38,4 @@ export default class Header extends Component {
         </div>
     </nav>
     )
-  }
 }
